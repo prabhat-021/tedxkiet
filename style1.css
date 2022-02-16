@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+box-sizing: border-box;
+}
+body{
+    background-color: #030013;
+}
+.main-div{
+    height: 100%;
+    width: 100vh;
+    position: relative;
+  
+}
+.box{
+    width: 400PX;
+    position: absolute;
+    left: 400px;
+    top: 130px;
+    padding: 20px;
+    background-color: #030013;
+    
+}
+.box h1{
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.box .inputbox{
+position: relative;
+}
+.box .inputbox input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #b1b1b1;
+    background: transparent;
+}
+.box .inputbox label{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: #dfdfdf;
+}
+.button{
+    background-color: #790505;
+    color: #f5f5f5;
+   
+    border-radius: 3px;
+   border: none;
+    width: 140px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 40px;
+    cursor: pointer;
+    outline: 0;
+}
+.chodu{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.lodu{
+    color: red;
+    margin-top: 20px;
+    font-size: 20px;
+    padding-left: 3px;
+}
+.button:hover{
+    background-color: red;
+    
+}
+.img1{
+    width: 40px;
+  
+}
+.head{
+    margin-left: 180px;
+    margin-top: 60px;
+    display: flex;
+}
+#ted{
+    width: 48px;
+    color: red;
+    font-size: 20px;
+    margin-left:360px;
+}
+#kiet{
+    color: white;
+    font-size: 20px;
+}
+.img2{
+    margin-left: 300px;
+    width: 40px;
+}
