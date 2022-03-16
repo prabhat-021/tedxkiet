@@ -289,10 +289,10 @@ p {
     padding: 66px 0 66px 0px;
 }
 
-.cont1 {
+/* .cont1 {
     position: relative;
     width: 30%;
-}
+} */
 
 #gfg-img {
     width: 100%;
@@ -300,7 +300,7 @@ p {
     width: 300px;
 }
 
-.title1 {
+/* .title1 {
     background-color: rgb(0, 0, 0, 0.5);
     /*positioned relative to parent div (container) */
     position: absolute;
@@ -315,7 +315,7 @@ coincides with container's bottom margin*/
     /*invisible because opacity is 0*/
     opacity: 0;
     transition: 0.6s;
-}
+} */
 
 
 /* .cont1:hover .title {
@@ -327,6 +327,7 @@ coincides with container's bottom margin*/
     box-sizing: unset;
     width: 730px;
     /* background-color: black; */
+    margin-left: 230px;
 }
 
 .row1 {
