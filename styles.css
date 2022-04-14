@@ -143,8 +143,8 @@ hr {
     color: white;
 }
 
-.nav-link {
-    color: aqua;
+#btn-nav{
+    color: white;
 }
 
 .navbar-brand {
@@ -220,6 +220,15 @@ hr {
     font-size: 40px;
     color: white;
 }
+.h5{
+
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
 
 .bot {
     margin-left: 287px;
