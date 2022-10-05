@@ -7,9 +7,9 @@ body{
     background-color: #030013;
 }
 .main-div{
-    height: 100%;
-    width: 100vh;
-    position: relative;
+    /* height: 100%; */
+    width: 100%;
+    /* position: relative; */
   
 }
 .box{
@@ -62,12 +62,12 @@ position: relative;
     cursor: pointer;
     outline: 0;
 }
-.chodu{
+.email-1{
     color: white;
     margin-top: 20px;
     font-size: 20px;
 }
-.lodu{
+.email-2{
     color: red;
     margin-top: 20px;
     font-size: 20px;
@@ -99,4 +99,15 @@ position: relative;
 .img2{
     margin-left: 300px;
     width: 40px;
+}
+@media screen and (max-width:420px){
+    .main-div{
+        display: none;
+    }
+    .help-body{
+        text-align: center;
+    }
+    .box{
+        position: static;
+    }
 }
